@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{77E790EF-32EF-40B9-92F9-8D66FF348912}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceService", "FinanceService\FinanceService.csproj", "{C8995F4E-565F-4083-8F7F-FE3A32682226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceService.Tests", "FinanceService.Tests\FinanceService.Tests.csproj", "{AEE3E2AA-AC7C-4DC1-9F8A-F1A2407E0FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceService.TestClient", "FinanceService.TestClient\FinanceService.TestClient.csproj", "{0562EC98-9E02-4FC9-AA5F-CC9A1CB4671D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestClient.SoapUI", "TestClient.SoapUI", "{E545337A-FBAC-4810-9B61-4EFD20F33072}"
+	ProjectSection(SolutionItems) = preProject
+		TestClient.SoapUI\FinanceService-odata-soapui-project.xml = TestClient.SoapUI\FinanceService-odata-soapui-project.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +20,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77E790EF-32EF-40B9-92F9-8D66FF348912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77E790EF-32EF-40B9-92F9-8D66FF348912}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77E790EF-32EF-40B9-92F9-8D66FF348912}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77E790EF-32EF-40B9-92F9-8D66FF348912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8995F4E-565F-4083-8F7F-FE3A32682226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8995F4E-565F-4083-8F7F-FE3A32682226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8995F4E-565F-4083-8F7F-FE3A32682226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8995F4E-565F-4083-8F7F-FE3A32682226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE3E2AA-AC7C-4DC1-9F8A-F1A2407E0FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE3E2AA-AC7C-4DC1-9F8A-F1A2407E0FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE3E2AA-AC7C-4DC1-9F8A-F1A2407E0FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE3E2AA-AC7C-4DC1-9F8A-F1A2407E0FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0562EC98-9E02-4FC9-AA5F-CC9A1CB4671D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0562EC98-9E02-4FC9-AA5F-CC9A1CB4671D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0562EC98-9E02-4FC9-AA5F-CC9A1CB4671D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0562EC98-9E02-4FC9-AA5F-CC9A1CB4671D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
